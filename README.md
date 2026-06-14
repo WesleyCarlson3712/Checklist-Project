@@ -3,7 +3,7 @@
 The purpose of this project has been for me to learn to use the C++ programming language. Upon beginning this project I already had a small amount of C++ knowlege, but I have learned more in the time I have worked on this.
 This program is a terminal based checklist that allows you to keep track of tasks with descriptions and completion statuses. The list can be manipulated in any way you need, and saved and loaded from your device.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/IYkUsYt63j8)
 
 # Development Environment
 
