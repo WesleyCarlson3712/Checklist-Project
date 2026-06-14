@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Checklist-Project.vcxproj" Id="3fb0b2cb-f083-4c05-8d84-aa854567cd72" />
+</Solution>

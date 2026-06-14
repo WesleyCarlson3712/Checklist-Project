@@ -1,0 +1,64 @@
+# Visual Studio / Visual C++
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.VC.db
+*.VC.VC.opendb
+ipch/
+*.ipch
+*.opensdf
+*.sdf
+*.opendb
+*.idb
+*.pdb
+
+# Build results
+[Bb]in/
+[Oo]bj/
+Debug*/
+Release*/
+x64/ 
+x86/
+*/Debug/
+*/Release/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+CMakeLists.txt.user
+
+# Packages
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+
+# vcpkg
+vcpkg_installed/
+
+# Logs, databases, and temporary files
+*.log
+*.cache
+*.tmp
+*.temp
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Others
+*.class
+*.jar
+*.war
+
+# Keep project and source files (do not ignore .vcxproj/.cpp/.h/.rc etc.)
