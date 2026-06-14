@@ -2,11 +2,13 @@
 
 using namespace std;
 
+// Construct a checklist item with title, optional description and checked flag
 ChecklistItem::ChecklistItem(const string& t, const string& d, bool c)
     : title(t), description(d), checked(c)
 {
 }
 
+// Simple accessors and mutators for fields. Kept inline in the .cpp for clarity.
 const string& ChecklistItem::getTitle() const { return title; }
 const string& ChecklistItem::getDescription() const { return description; }
 bool ChecklistItem::isChecked() const { return checked; }

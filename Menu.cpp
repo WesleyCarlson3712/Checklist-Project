@@ -197,3 +197,8 @@ void Menu::run()
     }
     cout << "Exiting Program\n";
 }
+
+// Notes on Menu implementation:
+// - getOption reads a line and validates numeric range, reprompting until valid.
+// - readLine is a small wrapper for prompting then using getline (handles empty values).
+// - Each command pauses for the user to press Enter so the user can see results.
