@@ -11,6 +11,34 @@ I made this program entirely in visual studio using C++.
 I used nlohmann/json to impliment the file saving and loading system.
 It will need to be installed in order for this program to work
 
+# Getting Started
+
+Download the project and install dependencies with these commands.
+
+## 1) Download the project from GitHub (recommended):
+   click Code -> Download ZIP, then extract the ZIP to a folder.
+   
+## 2) Install nlohmann/json:
+
+### Windows (PowerShell)
+```powershell
+git clone https://github.com/microsoft/vcpkg.git
+.\vcpkg\bootstrap-vcpkg.bat
+.\vcpkg\vcpkg install nlohmann-json
+.\vcpkg\vcpkg integrate install
+```
+
+### macOS / Linux (bash)
+```bash
+git clone https://github.com/microsoft/vcpkg.git
+./vcpkg/bootstrap-vcpkg.sh
+./vcpkg/vcpkg install nlohmann-json
+./vcpkg/vcpkg integrate install
+```
+
+## 3) Run the code:
+Open the project in Visual Studio and build.
+
 # Useful Websites
 
 - [W3Schools C++ tutorial](https://www.w3schools.com/cpp/)
